@@ -1,9 +1,9 @@
 The easiest way to convert images or virtual machines from one format to another is with [virt-v2v](https://libguestfs.org/virt-v2v.1.html). This knowledgebase article will cover how to use virt-v2v to convert VMware images for use in OpenStack.  Virt-v2v can read Linux and Windows guests running on VMware, Xen, Hyper-V and some other hypervisors, and convert them to KVM managed by libvirt, OpenStack, oVirt, Red Hat Virtualisation (RHV) or several other targets. It can modify the guest to make it bootable on KVM and install virtio drivers so it will run quickly.
 
-[Installing virt-v2v](#ConvertingVirtualMachines/ImagesforOpenStack-Install)  
-[Converting images to OpenStack an compatible image](#ConvertingVirtualMachines/ImagesforOpenStack-Converting)  
-[Converting an image and shrinking the file system](#ConvertingVirtualMachines/ImagesforOpenStack-shrink)  
-[Using VMware's OVFTool](#ConvertingVirtualMachines/ImagesforOpenStack-ovftool)
+[Installing virt-v2v](#install)  
+[Converting images to OpenStack an compatible image](#converting-images)  
+[Converting an image and shrinking the file system](#convert-ovavmx-to-qemukvm-and-shrink-file-system)  
+[Using VMware's OVFTool](#vmwares-ovf-tool)
 
   
 Install
