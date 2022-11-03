@@ -104,7 +104,7 @@ We're going to use the [guestfish](https://libguestfs.org/guestfish.1.html) tool
 ```bash
 guestfish -a vm-sda
 	<fs> run
-    <fs> list-filesystems
+        <fs> list-filesystems
 	<fs> e2fsck-f /dev/sda1
 	<fs> resize2fs-size /dev/sda1 15G
 	<fs> e2fsck-f /dev/sda1
